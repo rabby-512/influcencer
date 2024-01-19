@@ -1,0 +1,481 @@
+*{
+  
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+    margin: 0;
+    padding: 0;
+}
+
+nav h2 {
+
+
+    color: #3A3A3A;
+   
+    
+    font-size: 24px;
+  
+    font-weight: 700;
+   
+
+}
+
+nav{
+
+
+
+
+
+
+
+margin: 95px  120px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav ul {
+    display: flex;
+  
+}
+
+ul li {
+
+    margin-left: 34px;
+ list-style: none;
+}
+
+li a {
+    text-decoration: none;
+
+    color: #3A3A3A;
+
+font-size: 16px;
+
+font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+.main-contain{
+margin: 45px 120px 0 120px;
+
+    display: flex;
+
+}
+
+
+.journey h1{
+margin-top: 145px;
+
+
+
+
+    width: 582px;
+    height: 133px;
+   
+
+    color: #3A3A3A;
+
+font-size: 52px;
+
+font-weight: 700;
+line-height: 70px; 
+}
+
+.journey p {
+
+    width: 505px;
+    height: 60.9px;
+   
+    
+    color: #3A3A3A;
+
+font-size: 16px;
+
+font-weight: 600;
+
+}
+
+.journey button{
+
+
+    color: #FFF;
+ 
+    font-size: 16px;
+   
+    font-weight: 700;
+   
+
+
+
+
+
+
+
+
+
+    padding: 10px 24px;
+
+    gap: 8px;
+border: none;
+
+
+    border-radius: 41px;
+background: #E02C6D;
+}
+
+
+.main-camera {
+
+    width: 440px;
+height: 414px;
+
+}
+
+
+.sponsar{
+
+display: flex;
+justify-content: space-between;
+
+
+margin: 180px 226px;
+}
+
+
+
+.main-titel{
+
+    color: #3A3A3A;
+text-align: center;
+font-size: 28px;
+
+font-weight: 600;
+line-height: 70px;
+}
+
+/* prodact */
+
+
+.prodact-seaction{
+
+margin: 0 195px;
+
+}
+
+
+.prodact{
+/* text-align: center; */
+
+
+
+margin: 10px;
+width: 329px;
+
+
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+
+}
+
+
+
+.prodact-name{
+
+    color:  #18191F;
+    
+    font-size: 28px;
+  
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+
+.prodact-price {
+
+    color:  rgba(0, 0, 0, 0.87);
+
+font-size: 24px;
+
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+
+.prodact-discription{
+
+    width: 196px;
+    color: #787885;
+ 
+    font-size: 14px;
+  
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+    
+}
+
+
+.prodact-item{
+
+
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+.featured{
+    
+    margin: 100px 160px;
+   
+}
+
+.featured-contain{
+
+
+display: flex;
+gap: 90PX;
+align-items: center;
+
+}
+
+
+.featured-titel{
+
+    color: #0A0826;
+
+
+font-size: 38px;
+
+font-weight: 700;
+line-height: 60px; /* 157.895% */
+}
+
+
+.featured-discription{
+    width: 501px;
+    height: 88px;
+  
+
+    color: #6C6C6C;
+  
+
+    font-size: 16px;
+
+    font-weight: 700;
+    line-height: 28px; /* 175% */  
+}
+
+.featured button{
+
+
+    color: #FFF;
+   
+   
+    font-size: 16px;
+ 
+    font-weight: 700;
+ 
+
+
+
+
+    padding: 10px 24px;
+  
+    gap: 8px;
+
+    background: #E02C6D;
+
+    border: 0;
+}
+
+
+footer {
+gap: 3px;
+text-align: center;
+height: 239px;
+background: #0A0826;
+}
+footer h3{
+padding-top: 50px;
+
+    color: #FFF;
+
+font-size: 24px;
+
+font-weight: 700;
+
+}
+
+
+footer p {
+    color: #D9DBE1;
+
+ 
+    font-size: 14px;
+
+    font-weight: 700;
+    line-height: 24px; 
+}
+.icon{
+margin-top: 17px;
+
+}
+
+.icon img {
+    width: 32px;
+height: 32px;
+  
+}
+
+
+@media screen and ( max-width:660px) {
+
+
+
+
+    nav ul  {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+   .main-contain{
+    flex-direction: column-reverse;
+   }
+    .sponsar{
+        flex-direction: column;
+     
+    }
+    
+.journey h1 {
+
+padding-bottom: 30px;
+
+width: 404px;
+height: 78px;
+
+
+}
+.journey p {
+    width: 321px;
+height: 65px;
+
+}
+
+.main-camera{
+
+    width: 202px;
+height: 190px;
+
+}
+
+.sponsar{
+align-items: center;
+ 
+gap: 30px;
+margin: 0;
+
+}
+.prodact-item {
+
+    grid-template-columns: repeat(1, 1fr);
+
+
+
+}
+.prodact{
+margin-top: 50px;
+    text-align: center;
+width: auto;
+}
+.prodact-seaction{
+    margin: 0;
+}
+
+.featured-contain{
+flex-direction: column-reverse;
+
+}
+.pro-img img{
+    width: 299px;
+    height: 188px;
+
+
+}
+
+.featured-titel{
+    color: #0A0826;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 700;
+
+}
+
+.featured-discription{
+    width: 329px;
+height: 88px;
+
+}
+
+
+.featured button {
+align-items: center;
+ 
+    margin-top: 60px;
+
+}
+
+
+
+.prodact-discription {
+width: 150px;
+padding-left: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and  (min-width: 560px) and (max-width:1080px){
+
+
+    .sponsar{
+        align-items: center;
+         
+        gap: 30px;
+        margin: 0;
+        
+        }
+        
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
